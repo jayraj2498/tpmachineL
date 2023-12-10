@@ -1,11 +1,47 @@
 
+(base) PS E:\INDST\New folder> cd .\tpmachineL\
+
+# to create new branch 
+
+(base) PS E:\INDST\New folder\tpmachineL> git checkout -b feature1
+Switched to a new branch 'feature1'
+(base) PS E:\INDST\New folder\tpmachineL> git brach 
+git: 'brach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+(base) PS E:\INDST\New folder\tpmachineL> git branch
+* feature1
+  main
+(base) PS E:\INDST\New folder\tpmachineL> 
+
+# to switvh branch 
+
+(base) PS E:\INDST\New folder\tpmachineL> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+(base) PS E:\INDST\New folder\tpmachineL>  
+
+(base) PS E:\INDST\New folder\tpmachineL> git checkout feature1
+Switched to branch 'feature1'
+(base) PS E:\INDST\New folder\tpmachineL> 
+
+# crete new branch 
+(base) PS E:\INDST\New folder\tpmachineL> git checkout -b feature2
+Switched to a new branch 'feature2'
+(base) PS E:\INDST\New folder\tpmachineL> 
+
 # if we want to delete branch 
 
 (base) PS E:\INDST\New folder\tpmachineL> git branch -d feature2
 Deleted branch feature2 (was 5d4aa6b).
+
 (base) PS E:\INDST\New folder\tpmachineL>
 
 
-#######################################################################
-we make the changes here in new branch feature1
-######################################################################
+####################################################################### 
+
+#########################################################################
+
+
+############################################################################
